@@ -1,0 +1,52 @@
+/*
+Copyright (C) 2015 FiveHT Media Ltd. - All right reserved.
+
+The file current-conditions.css is part of Intranet
+
+Copying, modification, duplication in whole or in part without
+the express written consent of FiveHT Media Ltd. is prohibited.
+*/
+/* 
+    Created on : Mar 31, 2015, 12:01:55 PM
+    Author     : Nathan Crause
+*/
+
+.metweather {
+	background: white;
+}
+
+.metweather-icon {
+	display: block;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.metweather-icon:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.metweather-icon figure {
+	display: block;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.metweather-icon figure img {
+	max-width: 100%;
+	height: 100%;
+}
+
+.metweather-city, .metweather-temp {
+	padding: 10px;
+	text-align: center;
+}
